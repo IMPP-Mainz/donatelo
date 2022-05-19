@@ -1,0 +1,698 @@
+19.07.2021 17:13:54,891 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+19.07.2021 17:13:55,228 INFO  dictionary:326 - Start creating multi-label dictionaries.
+19.07.2021 17:13:55,236 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+19.07.2021 17:13:55,238 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+19.07.2021 17:13:55,241 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+19.07.2021 17:13:55,240 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+19.07.2021 17:13:55,240 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+19.07.2021 17:13:55,239 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+19.07.2021 17:13:55,254 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+19.07.2021 17:13:55,254 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+19.07.2021 17:13:55,259 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+19.07.2021 17:13:55,250 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+19.07.2021 17:13:55,267 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+19.07.2021 17:14:28,991 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:14:28,999 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:14:29,162 INFO  vdnntl:326 - Accuracy: 0.0
+19.07.2021 17:14:29,163 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:14:29,166 INFO  vdnntl:326 - Accuracy-history: (0 0.0)
+19.07.2021 17:14:29,167 INFO  vdnntl:326 - Finished learning epoch 1 after 176  milliseconds.
+19.07.2021 17:18:15,062 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:18:15,063 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:18:15,069 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,081 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,093 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,106 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,113 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,125 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,137 INFO  vdnntl:326 - Expected labels: , Actual labels:
+19.07.2021 17:18:15,143 INFO  vdnntl:326 - Accuracy: 0.0
+19.07.2021 17:18:15,144 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:18:15,145 INFO  vdnntl:326 - Accuracy-history: (0 0.0)
+19.07.2021 17:18:15,146 INFO  vdnntl:326 - Finished learning epoch 1 after 83  milliseconds.
+19.07.2021 17:19:03,645 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:19:03,647 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:19:03,653 INFO  vdnntl:326 - Example: ["a domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, non-retractable claws, and a barking, howling, or whining voice." ["dog" "mammal" "canine" "animal"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,664 INFO  vdnntl:326 - Example: ["a small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws. It is widely kept as a pet or for catching mice, and many breeds have been developed." ["cat" "feline" "mammal" "animal"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,683 INFO  vdnntl:326 - Example: ["a very large plant-eating mammal with a prehensile trunk, long curved ivory tusks, and large ears, native to Africa and southern Asia. It is the largest living land animal." ["elephant" "mammal" "animal"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,697 INFO  vdnntl:326 - Example: ["a limbless cold-blooded vertebrate animal with gills and fins living wholly in water." ["fish" "animal"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,718 INFO  vdnntl:326 - Example: ["a long-bodied chiefly marine fish with a cartilaginous skeleton, a prominent dorsal fin, and toothlike scales. Most sharks are predatory, although the largest kinds feed on plankton, and some can grow to a large size." ["shark" "fish" "animal"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,725 INFO  vdnntl:326 - Example: ["a heavily built omnivorous nocturnal mammal of the weasel family, typically having a grey and black coat." ["badger" "mammal" "animal" "weasel"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,732 INFO  vdnntl:326 - Example: ["a small, slender carnivorous mammal related to, but smaller than, the stoat." ["weasel" "mammal" "animal"]]
+Expected labels: , Actual labels:
+19.07.2021 17:19:03,738 INFO  vdnntl:326 - Accuracy: 0.0
+19.07.2021 17:19:03,739 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:19:03,740 INFO  vdnntl:326 - Accuracy-history: (0 0.0)
+19.07.2021 17:19:03,741 INFO  vdnntl:326 - Finished learning epoch 1 after 95  milliseconds.
+19.07.2021 17:19:39,848 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+19.07.2021 17:19:40,123 INFO  dictionary:326 - Start creating multi-label dictionaries.
+19.07.2021 17:19:40,126 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+19.07.2021 17:19:40,128 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+19.07.2021 17:19:40,130 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+19.07.2021 17:19:40,130 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+19.07.2021 17:19:40,132 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+19.07.2021 17:19:40,133 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+19.07.2021 17:19:40,134 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+19.07.2021 17:19:40,135 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+19.07.2021 17:19:40,137 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+19.07.2021 17:19:40,140 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+19.07.2021 17:19:40,143 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+19.07.2021 17:19:48,316 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:19:48,317 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:19:48,323 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@e3efe7e1
+Expected labels: dog,animal,mammal,canine, Actual labels:["dog" 10.333333333333334],["canine" 10.333333333333334],["mammal" 6.727272727272725],["cat" 6.0]
+19.07.2021 17:19:48,332 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@3fcc2f50
+Expected labels: animal,mammal,cat,feline, Actual labels:["cat" 9.666666666666666],["feline" 9.666666666666666],["animal" 9.4375],["mammal" 7.818181818181816]
+19.07.2021 17:19:48,339 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@d4c43609
+Expected labels: animal,mammal,elephant, Actual labels:["elephant" 15.5],["animal" 8.0],["mammal" 6.636363636363634]
+19.07.2021 17:19:48,343 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@854746f6
+Expected labels: animal,fish, Actual labels:["animal" 3.40625],["fish" 3.400000000000001]
+19.07.2021 17:19:48,348 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@ee3324c2
+Expected labels: shark,animal,fish, Actual labels:["animal" 10.46875],["shark" 9.875],["fish" 8.700000000000003]
+19.07.2021 17:19:48,352 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@41114517
+Expected labels: badger,weasel,animal,mammal, Actual labels:["badger" 7.5],["weasel" 5.833333333333332],["animal" 5.5625],["mammal" 4.545454545454545]
+19.07.2021 17:19:48,357 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@4b7f8145
+Expected labels: weasel,animal,mammal, Actual labels:["weasel" 4.333333333333333],["animal" 3.1875],["mammal" 2.9090909090909083]
+19.07.2021 17:19:48,358 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+19.07.2021 17:19:48,359 INFO  vdnntl:326 - Diff: 0.9642857142857143
+19.07.2021 17:19:48,360 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+19.07.2021 17:19:48,360 INFO  vdnntl:326 - Finished learning epoch 1 after 43  milliseconds.
+19.07.2021 17:19:48,361 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+19.07.2021 17:19:48,369 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@e3efe7e1
+Expected labels: dog,animal,mammal,canine, Actual labels:["dog" 10.333333333333334],["canine" 10.333333333333334],["animal" 8.71875],["mammal" 6.727272727272725]
+19.07.2021 17:19:48,376 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@3fcc2f50
+Expected labels: animal,mammal,cat,feline, Actual labels:["cat" 9.666666666666666],["feline" 9.666666666666666],["animal" 9.4375],["mammal" 7.818181818181816]
+19.07.2021 17:19:48,384 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@d4c43609
+Expected labels: animal,mammal,elephant, Actual labels:["elephant" 15.5],["animal" 8.0],["mammal" 6.636363636363634]
+19.07.2021 17:19:48,392 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@854746f6
+Expected labels: animal,fish, Actual labels:["animal" 3.40625],["fish" 3.400000000000001]
+19.07.2021 17:19:48,400 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@ee3324c2
+Expected labels: shark,animal,fish, Actual labels:["animal" 10.46875],["shark" 9.875],["fish" 8.700000000000003]
+19.07.2021 17:19:48,407 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@41114517
+Expected labels: badger,weasel,animal,mammal, Actual labels:["badger" 7.5],["weasel" 5.833333333333332],["animal" 5.5625],["mammal" 4.545454545454545]
+19.07.2021 17:19:48,416 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@4b7f8145
+Expected labels: weasel,animal,mammal, Actual labels:["weasel" 4.333333333333333],["animal" 3.1875],["mammal" 2.9090909090909083]
+19.07.2021 17:19:48,417 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:19:48,420 INFO  vdnntl:326 - Diff: 0.0357142857142857
+19.07.2021 17:19:48,421 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+19.07.2021 17:19:48,421 INFO  vdnntl:326 - Finished learning epoch 2 after 60  milliseconds.
+19.07.2021 17:19:48,422 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+19.07.2021 17:19:48,429 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@e3efe7e1
+Expected labels: dog,animal,mammal,canine, Actual labels:["dog" 10.333333333333334],["canine" 10.333333333333334],["animal" 8.71875],["mammal" 6.727272727272725]
+19.07.2021 17:19:48,435 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@3fcc2f50
+Expected labels: animal,mammal,cat,feline, Actual labels:["cat" 9.666666666666666],["feline" 9.666666666666666],["animal" 9.4375],["mammal" 7.818181818181816]
+19.07.2021 17:19:48,445 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@d4c43609
+Expected labels: animal,mammal,elephant, Actual labels:["elephant" 15.5],["animal" 8.0],["mammal" 6.636363636363634]
+19.07.2021 17:19:48,453 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@854746f6
+Expected labels: animal,fish, Actual labels:["animal" 3.40625],["fish" 3.400000000000001]
+19.07.2021 17:19:48,460 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@ee3324c2
+Expected labels: shark,animal,fish, Actual labels:["animal" 10.46875],["shark" 9.875],["fish" 8.700000000000003]
+19.07.2021 17:19:48,473 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@41114517
+Expected labels: badger,weasel,animal,mammal, Actual labels:["badger" 7.5],["weasel" 5.833333333333332],["animal" 5.5625],["mammal" 4.545454545454545]
+19.07.2021 17:19:48,482 INFO  vdnntl:326 - Example: impp.vdnntl.common.DataTransportVectorWithLabels@4b7f8145
+Expected labels: weasel,animal,mammal, Actual labels:["weasel" 4.333333333333333],["animal" 3.1875],["mammal" 2.9090909090909083]
+19.07.2021 17:19:48,483 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:19:48,484 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:19:48,485 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+19.07.2021 17:19:48,486 INFO  vdnntl:326 - Finished learning epoch 3 after 63  milliseconds.
+19.07.2021 17:20:07,197 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:20:07,198 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:20:07,222 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+19.07.2021 17:20:07,223 INFO  vdnntl:326 - Diff: 0.9642857142857143
+19.07.2021 17:20:07,224 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+19.07.2021 17:20:07,225 INFO  vdnntl:326 - Finished learning epoch 1 after 28  milliseconds.
+19.07.2021 17:20:07,226 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+19.07.2021 17:20:07,246 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:20:07,247 INFO  vdnntl:326 - Diff: 0.0357142857142857
+19.07.2021 17:20:07,247 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+19.07.2021 17:20:07,248 INFO  vdnntl:326 - Finished learning epoch 2 after 23  milliseconds.
+19.07.2021 17:20:07,249 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+19.07.2021 17:20:07,270 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:20:07,270 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:20:07,271 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+19.07.2021 17:20:07,272 INFO  vdnntl:326 - Finished learning epoch 3 after 24  milliseconds.
+19.07.2021 17:24:43,973 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+19.07.2021 17:24:44,252 INFO  dictionary:326 - Start creating multi-label dictionaries.
+19.07.2021 17:24:44,254 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+19.07.2021 17:24:44,255 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+19.07.2021 17:24:44,255 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+19.07.2021 17:24:44,255 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+19.07.2021 17:24:44,256 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+19.07.2021 17:24:44,258 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+19.07.2021 17:24:44,258 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+19.07.2021 17:24:44,261 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+19.07.2021 17:24:44,263 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+19.07.2021 17:24:44,264 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+19.07.2021 17:24:44,267 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+19.07.2021 17:25:20,107 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+19.07.2021 17:25:20,383 INFO  dictionary:326 - Start creating multi-label dictionaries.
+19.07.2021 17:25:20,386 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+19.07.2021 17:25:20,387 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+19.07.2021 17:25:20,388 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+19.07.2021 17:25:20,388 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+19.07.2021 17:25:20,389 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+19.07.2021 17:25:20,391 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+19.07.2021 17:25:20,393 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+19.07.2021 17:25:20,394 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+19.07.2021 17:25:20,395 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+19.07.2021 17:25:20,396 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+19.07.2021 17:25:20,397 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+19.07.2021 17:25:20,404 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:25:20,405 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:25:20,437 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+19.07.2021 17:25:20,437 INFO  vdnntl:326 - Diff: 0.9642857142857143
+19.07.2021 17:25:20,438 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+19.07.2021 17:25:20,439 INFO  vdnntl:326 - Finished learning epoch 1 after 35  milliseconds.
+19.07.2021 17:25:20,440 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+19.07.2021 17:25:20,461 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:25:20,462 INFO  vdnntl:326 - Diff: 0.0357142857142857
+19.07.2021 17:25:20,463 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+19.07.2021 17:25:20,464 INFO  vdnntl:326 - Finished learning epoch 2 after 25  milliseconds.
+19.07.2021 17:25:20,465 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+19.07.2021 17:25:20,492 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:25:20,493 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:25:20,494 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+19.07.2021 17:25:20,495 INFO  vdnntl:326 - Finished learning epoch 3 after 31  milliseconds.
+19.07.2021 17:27:31,909 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+19.07.2021 17:27:32,200 INFO  dictionary:326 - Start creating multi-label dictionaries.
+19.07.2021 17:27:32,202 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+19.07.2021 17:27:32,203 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+19.07.2021 17:27:32,203 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+19.07.2021 17:27:32,205 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+19.07.2021 17:27:32,206 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+19.07.2021 17:27:32,209 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+19.07.2021 17:27:32,212 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+19.07.2021 17:27:32,220 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+19.07.2021 17:27:32,224 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+19.07.2021 17:27:32,228 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+19.07.2021 17:27:32,230 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+19.07.2021 17:27:32,242 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, alpha adjustment function:util.helper$get_description@35c45eb7impp.vdnntl.alpha$standard_alpha_adjustment@1518f5f8, beta 0.3, epsilon 0.001 and epochs 8
+19.07.2021 17:27:32,244 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+19.07.2021 17:27:32,298 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+19.07.2021 17:27:32,299 INFO  vdnntl:326 - Diff: 0.9642857142857143
+19.07.2021 17:27:32,300 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+19.07.2021 17:27:32,300 INFO  vdnntl:326 - Finished learning epoch 1 after 57  milliseconds.
+19.07.2021 17:27:32,301 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+19.07.2021 17:27:32,335 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:27:32,336 INFO  vdnntl:326 - Diff: 0.0357142857142857
+19.07.2021 17:27:32,337 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+19.07.2021 17:27:32,337 INFO  vdnntl:326 - Finished learning epoch 2 after 36  milliseconds.
+19.07.2021 17:27:32,338 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+19.07.2021 17:27:32,361 INFO  vdnntl:326 - Accuracy: 1.0
+19.07.2021 17:27:32,362 INFO  vdnntl:326 - Diff: 0.0
+19.07.2021 17:27:32,362 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+19.07.2021 17:27:32,363 INFO  vdnntl:326 - Finished learning epoch 3 after 25  milliseconds.
+20.07.2021 09:02:24,882 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 09:02:25,353 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 09:02:25,359 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 09:02:25,361 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 09:02:25,361 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 09:02:25,362 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 09:02:25,363 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 09:02:25,365 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 09:02:25,371 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 09:02:25,370 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 09:02:25,373 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 09:02:25,376 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 09:02:25,377 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 10:46:09,885 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 10:46:10,212 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 10:46:10,214 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 10:46:10,214 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 10:46:10,216 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 10:46:10,216 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 10:46:10,216 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 10:46:10,217 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 10:46:10,221 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 10:46:10,221 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 10:46:10,223 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 10:46:10,223 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 10:46:10,228 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 11:24:17,549 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: true alpha 0.25, alpha adjustment function:util.helper$get_description@4b24770dimpp.vdnntl.alpha$standard_alpha_adjustment@16c62a61, beta 0.1, epsilon 0.001 and epochs 10
+20.07.2021 11:24:17,558 INFO  vdnntl:326 - Start learning epoch 1 of 10 epochs.
+20.07.2021 11:24:17,603 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 11:24:17,604 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 11:24:17,605 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 11:24:17,606 INFO  vdnntl:326 - Finished learning epoch 1 after 56  milliseconds.
+20.07.2021 11:24:17,607 INFO  vdnntl:326 - Start learning epoch 2 of 10 epochs.
+20.07.2021 11:24:17,663 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:24:17,664 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 11:24:17,665 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 11:24:17,666 INFO  vdnntl:326 - Finished learning epoch 2 after 59  milliseconds.
+20.07.2021 11:24:17,667 INFO  vdnntl:326 - Start learning epoch 3 of 10 epochs.
+20.07.2021 11:24:17,731 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:24:17,732 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 11:24:17,735 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 11:24:17,736 INFO  vdnntl:326 - Finished learning epoch 3 after 69  milliseconds.
+20.07.2021 11:24:57,068 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: true alpha 0.7, alpha adjustment function:util.helper$get_description@4b24770dimpp.vdnntl.alpha$standard_alpha_adjustment@16c62a61, beta 0.1, epsilon 0.001 and epochs 10
+20.07.2021 11:24:57,071 INFO  vdnntl:326 - Start learning epoch 1 of 10 epochs.
+20.07.2021 11:24:57,101 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 11:24:57,102 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 11:24:57,103 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 11:24:57,103 INFO  vdnntl:326 - Finished learning epoch 1 after 33  milliseconds.
+20.07.2021 11:24:57,104 INFO  vdnntl:326 - Start learning epoch 2 of 10 epochs.
+20.07.2021 11:24:57,131 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:24:57,132 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 11:24:57,133 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 11:24:57,134 INFO  vdnntl:326 - Finished learning epoch 2 after 29  milliseconds.
+20.07.2021 11:24:57,134 INFO  vdnntl:326 - Start learning epoch 3 of 10 epochs.
+20.07.2021 11:24:57,154 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:24:57,155 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 11:24:57,155 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 11:24:57,156 INFO  vdnntl:326 - Finished learning epoch 3 after 22  milliseconds.
+20.07.2021 11:25:08,069 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: true alpha 0.25, alpha adjustment function:util.helper$get_description@4b24770dimpp.vdnntl.alpha$standard_alpha_adjustment@16c62a61, beta 0.1, epsilon 0.001 and epochs 10
+20.07.2021 11:25:08,070 INFO  vdnntl:326 - Start learning epoch 1 of 10 epochs.
+20.07.2021 11:25:08,095 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 11:25:08,097 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 11:25:08,097 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 11:25:08,098 INFO  vdnntl:326 - Finished learning epoch 1 after 29  milliseconds.
+20.07.2021 11:25:08,099 INFO  vdnntl:326 - Start learning epoch 2 of 10 epochs.
+20.07.2021 11:25:08,117 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:25:08,117 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 11:25:08,118 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 11:25:08,119 INFO  vdnntl:326 - Finished learning epoch 2 after 21  milliseconds.
+20.07.2021 11:25:08,120 INFO  vdnntl:326 - Start learning epoch 3 of 10 epochs.
+20.07.2021 11:25:08,137 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:25:08,140 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 11:25:08,141 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 11:25:08,141 INFO  vdnntl:326 - Finished learning epoch 3 after 22  milliseconds.
+20.07.2021 11:28:40,438 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: true alpha 0.5, alpha adjustment function:util.helper$get_description@4b24770dimpp.vdnntl.alpha$standard_alpha_adjustment@16c62a61, beta 0.3, epsilon 0.01 and epochs 10
+20.07.2021 11:28:40,439 INFO  vdnntl:326 - Start learning epoch 1 of 10 epochs.
+20.07.2021 11:28:40,458 INFO  vdnntl:326 - Accuracy: 0.9523809523809524
+20.07.2021 11:28:40,459 INFO  vdnntl:326 - Diff: 0.9523809523809524
+20.07.2021 11:28:40,460 INFO  vdnntl:326 - Accuracy-history: (0 0.9523809523809524)
+20.07.2021 11:28:40,460 INFO  vdnntl:326 - Finished learning epoch 1 after 21  milliseconds.
+20.07.2021 11:28:40,461 INFO  vdnntl:326 - Start learning epoch 2 of 10 epochs.
+20.07.2021 11:28:40,476 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:28:40,476 INFO  vdnntl:326 - Diff: 0.04761904761904756
+20.07.2021 11:28:40,477 INFO  vdnntl:326 - Accuracy-history: (0 0.9523809523809524 1.0)
+20.07.2021 11:28:40,477 INFO  vdnntl:326 - Finished learning epoch 2 after 17  milliseconds.
+20.07.2021 11:28:40,478 INFO  vdnntl:326 - Start learning epoch 3 of 10 epochs.
+20.07.2021 11:28:40,493 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:28:40,494 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 11:28:40,495 INFO  vdnntl:326 - Accuracy-history: (0 0.9523809523809524 1.0 1.0)
+20.07.2021 11:28:40,502 INFO  vdnntl:326 - Finished learning epoch 3 after 24  milliseconds.
+20.07.2021 11:29:14,677 INFO  vdnntl:326 - Start learning with 7 examples, threads 2, shuffle?: true alpha 0.5, alpha adjustment function:util.helper$get_description@4b24770dimpp.vdnntl.alpha$standard_alpha_adjustment@16c62a61, beta 0.3, epsilon 0.01 and epochs 10
+20.07.2021 11:29:14,678 INFO  vdnntl:326 - Start learning epoch 1 of 10 epochs.
+20.07.2021 11:29:14,692 INFO  vdnntl:326 - Accuracy: 0.9523809523809524
+20.07.2021 11:29:14,693 INFO  vdnntl:326 - Diff: 0.9523809523809524
+20.07.2021 11:29:14,693 INFO  vdnntl:326 - Accuracy-history: (0 0.9523809523809524)
+20.07.2021 11:29:14,694 INFO  vdnntl:326 - Finished learning epoch 1 after 17  milliseconds.
+20.07.2021 11:29:14,695 INFO  vdnntl:326 - Start learning epoch 2 of 10 epochs.
+20.07.2021 11:29:14,708 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:29:14,709 INFO  vdnntl:326 - Diff: 0.04761904761904756
+20.07.2021 11:29:14,709 INFO  vdnntl:326 - Accuracy-history: (0 0.9523809523809524 1.0)
+20.07.2021 11:29:14,710 INFO  vdnntl:326 - Finished learning epoch 2 after 16  milliseconds.
+20.07.2021 11:29:14,710 INFO  vdnntl:326 - Start learning epoch 3 of 10 epochs.
+20.07.2021 11:29:14,723 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:29:14,724 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 11:29:14,725 INFO  vdnntl:326 - Accuracy-history: (0 0.9523809523809524 1.0 1.0)
+20.07.2021 11:29:14,725 INFO  vdnntl:326 - Finished learning epoch 3 after 15  milliseconds.
+20.07.2021 11:29:46,869 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, alpha adjustment function:util.helper$get_description@4b24770dimpp.vdnntl.alpha$standard_alpha_adjustment@16c62a61, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 11:29:46,870 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 11:29:46,893 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 11:29:46,894 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 11:29:46,894 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 11:29:46,895 INFO  vdnntl:326 - Finished learning epoch 1 after 24  milliseconds.
+20.07.2021 11:29:46,895 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 11:29:46,915 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:29:46,916 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 11:29:46,916 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 11:29:46,917 INFO  vdnntl:326 - Finished learning epoch 2 after 22  milliseconds.
+20.07.2021 11:29:46,918 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 11:29:46,936 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 11:29:46,936 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 11:29:46,937 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 11:29:46,938 INFO  vdnntl:326 - Finished learning epoch 3 after 20  milliseconds.
+20.07.2021 12:08:07,593 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 12:08:08,013 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:08:08,015 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:08:08,016 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 12:08:08,018 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 12:08:08,021 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:08:08,024 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:08:08,027 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:08:08,030 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:08:08,032 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:08:08,034 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:08:08,036 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:08:08,038 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:08:33,168 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 12:08:33,584 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:08:33,587 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:08:33,587 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 12:08:33,587 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 12:08:33,588 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:08:33,589 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:08:33,590 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:08:33,592 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:08:33,593 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:08:33,595 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:08:33,595 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:08:33,596 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:09:19,305 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, alpha adjustment function:util.helper$get_description@4b24770dclojure.lang.AFunction$1@faff01, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 12:09:19,307 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 12:09:19,333 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 12:09:19,334 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 12:09:19,334 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 12:09:19,335 INFO  vdnntl:326 - Finished learning epoch 1 after 29  milliseconds.
+20.07.2021 12:09:19,336 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 12:09:19,355 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:09:19,356 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 12:09:19,357 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 12:09:19,357 INFO  vdnntl:326 - Finished learning epoch 2 after 22  milliseconds.
+20.07.2021 12:09:19,358 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 12:09:19,379 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:09:19,380 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 12:09:19,380 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 12:09:19,381 INFO  vdnntl:326 - Finished learning epoch 3 after 23  milliseconds.
+20.07.2021 12:11:21,853 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 12:11:22,218 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:11:22,221 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:11:22,224 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 12:11:22,224 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 12:11:22,225 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:11:22,226 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:11:22,226 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:11:22,228 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:11:22,230 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:11:22,233 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:11:22,235 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:11:22,235 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:11:24,473 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false alpha 0.5, alpha adjustment function:{:pos-multiplier 0.25, :neg-multiplier 0.1, :source "PersistentArrayMap"}, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 12:11:24,474 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 12:11:24,502 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 12:11:24,503 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 12:11:24,503 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 12:11:24,504 INFO  vdnntl:326 - Finished learning epoch 1 after 31  milliseconds.
+20.07.2021 12:11:24,504 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 12:11:24,524 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:11:24,525 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 12:11:24,526 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 12:11:24,526 INFO  vdnntl:326 - Finished learning epoch 2 after 22  milliseconds.
+20.07.2021 12:11:24,527 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 12:11:24,552 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:11:24,553 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 12:11:24,553 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 12:11:24,554 INFO  vdnntl:326 - Finished learning epoch 3 after 27  milliseconds.
+20.07.2021 12:12:16,235 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 12:12:16,611 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:12:16,613 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:12:16,613 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 12:12:16,614 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 12:12:16,616 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:12:16,616 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:12:16,620 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:12:16,620 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:12:16,621 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:12:16,623 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:12:16,625 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:12:16,627 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:13:51,306 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:{:pos-multiplier 1.25, :neg-multiplier 0.3, :source "PersistentArrayMap"}, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 12:13:51,307 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 12:13:51,332 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 12:13:51,333 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 12:13:51,333 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 12:13:51,334 INFO  vdnntl:326 - Finished learning epoch 1 after 27  milliseconds.
+20.07.2021 12:13:51,335 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 12:13:51,354 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:13:51,355 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 12:13:51,355 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 12:13:51,356 INFO  vdnntl:326 - Finished learning epoch 2 after 22  milliseconds.
+20.07.2021 12:13:51,356 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 12:13:51,376 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:13:51,377 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 12:13:51,377 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 12:13:51,378 INFO  vdnntl:326 - Finished learning epoch 3 after 22  milliseconds.
+20.07.2021 12:14:36,881 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:{:pos-multiplier 1.25, :neg-multiplier 1.0, :source "PersistentArrayMap"}, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 12:14:36,882 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 12:14:36,901 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 12:14:36,902 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 12:14:36,903 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 12:14:36,903 INFO  vdnntl:326 - Finished learning epoch 1 after 22  milliseconds.
+20.07.2021 12:14:36,904 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 12:14:36,920 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:14:36,920 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 12:14:36,921 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 12:14:36,921 INFO  vdnntl:326 - Finished learning epoch 2 after 18  milliseconds.
+20.07.2021 12:14:36,922 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 12:14:36,937 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:14:36,938 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 12:14:36,938 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 12:14:36,939 INFO  vdnntl:326 - Finished learning epoch 3 after 18  milliseconds.
+20.07.2021 12:37:21,396 INFO  common:326 - Create  7 DTV-vectors with  6  threads.
+20.07.2021 12:37:21,831 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:37:21,832 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:37:21,834 INFO  dictionary:326 - Start creating dictionary for label ' badger '.
+20.07.2021 12:37:21,834 INFO  dictionary:326 - Start creating dictionary for label ' weasel '.
+20.07.2021 12:37:21,835 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:37:21,836 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:37:21,836 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:37:21,837 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:37:21,839 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:37:21,840 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:37:21,843 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:37:21,843 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:37:24,092 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:{:pos-multiplier 1.25, :neg-multiplier 1.0, :source "PersistentArrayMap"}, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 12:37:24,093 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 12:37:24,114 INFO  vdnntl:326 - Accuracy: 0.9642857142857143
+20.07.2021 12:37:24,115 INFO  vdnntl:326 - Diff: 0.9642857142857143
+20.07.2021 12:37:24,115 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143)
+20.07.2021 12:37:24,116 INFO  vdnntl:326 - Finished learning epoch 1 after 24  milliseconds.
+20.07.2021 12:37:24,117 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 12:37:24,139 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:37:24,140 INFO  vdnntl:326 - Diff: 0.0357142857142857
+20.07.2021 12:37:24,141 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0)
+20.07.2021 12:37:24,141 INFO  vdnntl:326 - Finished learning epoch 2 after 25  milliseconds.
+20.07.2021 12:37:24,142 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 12:37:24,165 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:37:24,165 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 12:37:24,166 INFO  vdnntl:326 - Accuracy-history: (0 0.9642857142857143 1.0 1.0)
+20.07.2021 12:37:24,166 INFO  vdnntl:326 - Finished learning epoch 3 after 25  milliseconds.
+20.07.2021 12:38:38,691 INFO  common:326 - Create  5 DTV-vectors with  6  threads.
+20.07.2021 12:38:39,026 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:38:39,029 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:38:39,029 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:38:39,031 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:38:39,031 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:38:39,031 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:38:39,033 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:38:39,035 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:38:39,036 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:38:39,038 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:39:50,606 INFO  common:326 - Create  5 DTV-vectors with  6  threads.
+20.07.2021 12:39:50,920 INFO  common:326 - Create  2 DTV-vectors with  6  threads.
+20.07.2021 12:39:51,039 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 12:39:51,041 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 12:39:51,041 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 12:39:51,042 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 12:39:51,042 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 12:39:51,042 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 12:39:51,044 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 12:39:51,046 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 12:39:51,048 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 12:39:51,050 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 12:40:08,588 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:alpha$standard_alpha_adjustment, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 12:40:08,589 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 12:40:08,615 INFO  vdnntl:326 - Accuracy: 0.7738095238095238
+20.07.2021 12:40:08,616 INFO  vdnntl:326 - Diff: 0.7738095238095238
+20.07.2021 12:40:08,616 INFO  vdnntl:326 - Accuracy-history: (0 0.7738095238095238)
+20.07.2021 12:40:08,617 INFO  vdnntl:326 - Finished learning epoch 1 after 29  milliseconds.
+20.07.2021 12:40:08,617 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 12:40:08,635 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:40:08,635 INFO  vdnntl:326 - Diff: 0.22619047619047616
+20.07.2021 12:40:08,636 INFO  vdnntl:326 - Accuracy-history: (0 0.7738095238095238 1.0)
+20.07.2021 12:40:08,636 INFO  vdnntl:326 - Finished learning epoch 2 after 19  milliseconds.
+20.07.2021 12:40:08,637 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 12:40:08,662 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 12:40:08,663 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 12:40:08,663 INFO  vdnntl:326 - Accuracy-history: (0 0.7738095238095238 1.0 1.0)
+20.07.2021 12:40:08,664 INFO  vdnntl:326 - Finished learning epoch 3 after 28  milliseconds.
+20.07.2021 15:01:25,071 INFO  vdnntl:326 - Start learning with 5 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:alpha$standard_alpha_adjustment, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 15:01:25,072 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 15:01:25,088 INFO  vdnntl:326 - Accuracy: 0.9
+20.07.2021 15:01:25,088 INFO  vdnntl:326 - Diff: 0.9
+20.07.2021 15:01:25,089 INFO  vdnntl:326 - Accuracy-history: (0 0.9)
+20.07.2021 15:01:25,090 INFO  vdnntl:326 - Finished learning epoch 1 after 18  milliseconds.
+20.07.2021 15:01:25,091 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 15:01:25,113 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 15:01:25,114 INFO  vdnntl:326 - Diff: 0.09999999999999998
+20.07.2021 15:01:25,114 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0)
+20.07.2021 15:01:25,115 INFO  vdnntl:326 - Finished learning epoch 2 after 24  milliseconds.
+20.07.2021 15:01:25,115 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 15:01:25,132 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 15:01:25,133 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 15:01:25,133 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0 1.0)
+20.07.2021 15:01:25,134 INFO  vdnntl:326 - Finished learning epoch 3 after 18  milliseconds.
+20.07.2021 15:02:04,789 INFO  vdnntl:326 - Start learning with 5 examples, threads 2, shuffle?: true, alpha 0.5, alpha adjustment function:alpha$standard_alpha_adjustment, beta 0.3, epsilon 0.01 and epochs 10
+20.07.2021 15:02:04,791 INFO  vdnntl:326 - Start learning epoch 1 of 10 epochs.
+20.07.2021 15:02:04,805 INFO  vdnntl:326 - Accuracy: 0.8666666666666667
+20.07.2021 15:02:04,805 INFO  vdnntl:326 - Diff: 0.8666666666666667
+20.07.2021 15:02:04,805 INFO  vdnntl:326 - Accuracy-history: (0 0.8666666666666667)
+20.07.2021 15:02:04,806 INFO  vdnntl:326 - Finished learning epoch 1 after 15  milliseconds.
+20.07.2021 15:02:04,806 INFO  vdnntl:326 - Start learning epoch 2 of 10 epochs.
+20.07.2021 15:02:04,816 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 15:02:04,817 INFO  vdnntl:326 - Diff: 0.1333333333333333
+20.07.2021 15:02:04,817 INFO  vdnntl:326 - Accuracy-history: (0 0.8666666666666667 1.0)
+20.07.2021 15:02:04,817 INFO  vdnntl:326 - Finished learning epoch 2 after 11  milliseconds.
+20.07.2021 15:02:04,818 INFO  vdnntl:326 - Start learning epoch 3 of 10 epochs.
+20.07.2021 15:02:04,826 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 15:02:04,827 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 15:02:04,827 INFO  vdnntl:326 - Accuracy-history: (0 0.8666666666666667 1.0 1.0)
+20.07.2021 15:02:04,827 INFO  vdnntl:326 - Finished learning epoch 3 after 9  milliseconds.
+20.07.2021 15:02:28,021 INFO  vdnntl:326 - Start learning with 5 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:{:pos-multiplier 1.25, :neg-multiplier 1.0, :source "PersistentArrayMap"}, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 15:02:28,022 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 15:02:28,038 INFO  vdnntl:326 - Accuracy: 0.9
+20.07.2021 15:02:28,039 INFO  vdnntl:326 - Diff: 0.9
+20.07.2021 15:02:28,039 INFO  vdnntl:326 - Accuracy-history: (0 0.9)
+20.07.2021 15:02:28,040 INFO  vdnntl:326 - Finished learning epoch 1 after 19  milliseconds.
+20.07.2021 15:02:28,040 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 15:02:28,054 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 15:02:28,054 INFO  vdnntl:326 - Diff: 0.09999999999999998
+20.07.2021 15:02:28,055 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0)
+20.07.2021 15:02:28,055 INFO  vdnntl:326 - Finished learning epoch 2 after 15  milliseconds.
+20.07.2021 15:02:28,056 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 15:02:28,070 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 15:02:28,071 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 15:02:28,072 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0 1.0)
+20.07.2021 15:02:28,072 INFO  vdnntl:326 - Finished learning epoch 3 after 16  milliseconds.
+20.07.2021 15:57:50,704 INFO  common:326 - Create  5 DTV-vectors with  6  threads.
+20.07.2021 15:57:51,049 INFO  common:326 - Create  2 DTV-vectors with  6  threads.
+20.07.2021 15:57:51,152 INFO  dictionary:326 - Start creating multi-label dictionaries.
+20.07.2021 15:57:51,155 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+20.07.2021 15:57:51,156 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+20.07.2021 15:57:51,156 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+20.07.2021 15:57:51,158 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+20.07.2021 15:57:51,158 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+20.07.2021 15:57:51,159 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+20.07.2021 15:57:51,161 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+20.07.2021 15:57:51,161 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+20.07.2021 15:57:51,161 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+20.07.2021 16:30:59,443 INFO  vdnntl:326 - Start learning with 5 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:alpha$standard_alpha_adjustment, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 16:30:59,444 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 16:30:59,457 INFO  vdnntl:326 - Accuracy: 0.9
+20.07.2021 16:30:59,458 INFO  vdnntl:326 - Diff: 0.9
+20.07.2021 16:30:59,459 INFO  vdnntl:326 - Accuracy-history: (0 0.9)
+20.07.2021 16:30:59,459 INFO  vdnntl:326 - Finished learning epoch 1 after 16  milliseconds.
+20.07.2021 16:30:59,460 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 16:30:59,473 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 16:30:59,473 INFO  vdnntl:326 - Diff: 0.09999999999999998
+20.07.2021 16:30:59,474 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0)
+20.07.2021 16:30:59,474 INFO  vdnntl:326 - Finished learning epoch 2 after 15  milliseconds.
+20.07.2021 16:30:59,474 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 16:30:59,488 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 16:30:59,488 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 16:30:59,489 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0 1.0)
+20.07.2021 16:30:59,489 INFO  vdnntl:326 - Finished learning epoch 3 after 15  milliseconds.
+20.07.2021 16:32:11,234 INFO  vdnntl:326 - Start learning with 7 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:alpha$standard_alpha_adjustment, beta 0.3, epsilon 0.001 and epochs 8
+20.07.2021 16:32:11,235 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+20.07.2021 16:32:11,261 INFO  vdnntl:326 - Accuracy: 0.7738095238095238
+20.07.2021 16:32:11,262 INFO  vdnntl:326 - Diff: 0.7738095238095238
+20.07.2021 16:32:11,263 INFO  vdnntl:326 - Accuracy-history: (0 0.7738095238095238)
+20.07.2021 16:32:11,263 INFO  vdnntl:326 - Finished learning epoch 1 after 29  milliseconds.
+20.07.2021 16:32:11,264 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+20.07.2021 16:32:11,290 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 16:32:11,291 INFO  vdnntl:326 - Diff: 0.22619047619047616
+20.07.2021 16:32:11,292 INFO  vdnntl:326 - Accuracy-history: (0 0.7738095238095238 1.0)
+20.07.2021 16:32:11,292 INFO  vdnntl:326 - Finished learning epoch 2 after 29  milliseconds.
+20.07.2021 16:32:11,293 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+20.07.2021 16:32:11,309 INFO  vdnntl:326 - Accuracy: 1.0
+20.07.2021 16:32:11,309 INFO  vdnntl:326 - Diff: 0.0
+20.07.2021 16:32:11,310 INFO  vdnntl:326 - Accuracy-history: (0 0.7738095238095238 1.0 1.0)
+20.07.2021 16:32:11,310 INFO  vdnntl:326 - Finished learning epoch 3 after 18  milliseconds.
+10.08.2021 13:43:43,512 INFO  common:326 - Create  5 DTV-vectors with  6  threads.
+10.08.2021 13:43:43,745 INFO  common:326 - Create  2 DTV-vectors with  6  threads.
+10.08.2021 13:43:43,902 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 13:43:43,914 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 13:43:43,916 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 13:43:43,916 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 13:43:43,916 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 13:43:43,917 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 13:43:43,912 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 13:43:43,938 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 13:43:43,938 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 13:43:43,940 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+10.08.2021 13:44:48,616 INFO  vdnntl:326 - Start learning with 5 examples, threads 6, shuffle?: false, alpha 0.5, alpha adjustment function:alpha$standard_alpha_adjustment, beta 0.3, epsilon 0.001 and epochs 8
+10.08.2021 13:44:48,623 INFO  vdnntl:326 - Start learning epoch 1 of 8 epochs.
+10.08.2021 13:44:48,686 INFO  vdnntl:326 - Accuracy: 0.9
+10.08.2021 13:44:48,688 INFO  vdnntl:326 - Diff: 0.9
+10.08.2021 13:44:48,690 INFO  vdnntl:326 - Accuracy-history: (0 0.9)
+10.08.2021 13:44:48,692 INFO  vdnntl:326 - Finished learning epoch 1 after 74  milliseconds.
+10.08.2021 13:44:48,693 INFO  vdnntl:326 - Start learning epoch 2 of 8 epochs.
+10.08.2021 13:44:48,730 INFO  vdnntl:326 - Accuracy: 1.0
+10.08.2021 13:44:48,731 INFO  vdnntl:326 - Diff: 0.09999999999999998
+10.08.2021 13:44:48,732 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0)
+10.08.2021 13:44:48,733 INFO  vdnntl:326 - Finished learning epoch 2 after 41  milliseconds.
+10.08.2021 13:44:48,734 INFO  vdnntl:326 - Start learning epoch 3 of 8 epochs.
+10.08.2021 13:44:48,774 INFO  vdnntl:326 - Accuracy: 1.0
+10.08.2021 13:44:48,775 INFO  vdnntl:326 - Diff: 0.0
+10.08.2021 13:44:48,776 INFO  vdnntl:326 - Accuracy-history: (0 0.9 1.0 1.0)
+10.08.2021 13:44:48,777 INFO  vdnntl:326 - Finished learning epoch 3 after 43  milliseconds.
+10.08.2021 14:20:53,537 INFO  common:326 - Create  5 DTV-vectors with  6  threads.
+10.08.2021 14:20:53,757 INFO  common:326 - Create  2 DTV-vectors with  6  threads.
+10.08.2021 14:20:53,832 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 14:20:53,838 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 14:20:53,838 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 14:20:53,841 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 14:20:53,844 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 14:20:53,847 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 14:20:53,847 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 14:20:53,851 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 14:20:53,851 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 14:20:53,854 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+10.08.2021 14:21:33,348 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 14:21:33,350 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 14:21:33,353 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 14:21:33,353 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 14:21:33,353 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 14:21:33,354 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 14:21:33,356 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 14:21:33,358 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 14:21:33,361 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 14:21:33,361 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+10.08.2021 14:21:39,067 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 14:21:39,070 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 14:21:39,071 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 14:21:39,072 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 14:21:39,074 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 14:21:39,076 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 14:21:39,076 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 14:21:39,077 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 14:21:39,078 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 14:21:39,081 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+10.08.2021 14:22:26,799 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 14:22:26,808 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 14:22:26,814 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 14:22:26,820 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 14:22:26,821 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 14:22:26,821 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 14:22:26,823 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 14:22:26,822 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 14:22:26,825 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 14:22:26,832 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+10.08.2021 14:23:19,524 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 14:23:19,530 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 14:23:19,531 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 14:23:19,532 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 14:23:19,533 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 14:23:19,535 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 14:23:19,535 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 14:23:19,537 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 14:23:19,538 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 14:23:19,541 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
+10.08.2021 14:29:51,334 INFO  dictionary:326 - Start creating multi-label dictionaries.
+10.08.2021 14:29:51,338 INFO  dictionary:326 - Start creating dictionary for label ' dog '.
+10.08.2021 14:29:51,338 INFO  dictionary:326 - Start creating dictionary for label ' animal '.
+10.08.2021 14:29:51,338 INFO  dictionary:326 - Start creating dictionary for label ' shark '.
+10.08.2021 14:29:51,340 INFO  dictionary:326 - Start creating dictionary for label ' mammal '.
+10.08.2021 14:29:51,342 INFO  dictionary:326 - Start creating dictionary for label ' elephant '.
+10.08.2021 14:29:51,342 INFO  dictionary:326 - Start creating dictionary for label ' cat '.
+10.08.2021 14:29:51,345 INFO  dictionary:326 - Start creating dictionary for label ' canine '.
+10.08.2021 14:29:51,347 INFO  dictionary:326 - Start creating dictionary for label ' fish '.
+10.08.2021 14:29:51,351 INFO  dictionary:326 - Start creating dictionary for label ' feline '.
