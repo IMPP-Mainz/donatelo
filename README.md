@@ -388,4 +388,5 @@ If the training contains examples with labels that are not yet known, the traini
 Copyright (C) 2021 Institut für medizinische und pharmazeutische Prüfungsfragen.
 Licensed under the [GNU General Public License 3](https://www.gnu.org/licenses/gpl-3.0.de.html).
 
-Please quote as: Núñez, A.; Lindner, M. (2022): Donatelo, https://github.com/IMPP-Mainz/donatelo, DOI: <DOI-Nummer>
+Please quote as: Núñez, A.; Lindner, M. (2022): Donatelo, https://github.com/IMPP-Mainz/donatelo, DOI: [![DOI](https://zenodo.org/badge/494041303.svg)](https://zenodo.org/badge/latestdoi/494041303)
+
