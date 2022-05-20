@@ -1,4 +1,5 @@
 # Donatelo
+Donatelo is a dynamic neural network for multi-labelling based on the "Dynamic Neural Network for Text Classification" by L.Vega and A.Mendez-Vazquez [1]. 
 
 ## Installation
 
@@ -383,6 +384,9 @@ If the training contains examples with labels that are not yet known, the traini
 ```
 ## TODOs
 - [ ] Using membership values in learning process
+
+## Literatur
+[1] L. Vega and A. Mendez-Vazquez, "Dynamic Neural Networks for Text Classification," 2016 International Conference on Computational Intelligence and Applications (ICCIA), 2016, pp. 6-11, doi: 10.1109/ICCIA.2016.15. (https://ieeexplore.ieee.org/document/7600305)
 
 ## License
 Copyright (C) 2021 Institut für medizinische und pharmazeutische Prüfungsfragen.
